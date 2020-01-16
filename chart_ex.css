@@ -1,0 +1,39 @@
+svg {
+		font-family: Malgun Gothic;
+}
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	font-family: Malgun Gothic;
+	text-shadow: 1px 1px 1px 1px black;
+	padding: 10px;
+	background: rgba(240,240,255,0.8);
+	color: #0080ff;
+	border-radius: 5px;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #ccc;
+	shape-rendering: crispEdges;
+}
+
+.bar:hover rect {
+	fill: #0080ff;
+}
+
+.bar text {
+	font-size: 10px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px 1px black;
+	fill: white;
+	text-anchor: left;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	text-anchor: middle;
+}
