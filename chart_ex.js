@@ -55,7 +55,7 @@ var barColor = d3.scale.linear()
 				.range(["#f00","#dd0","#0f0"]);
 
 // .tsv 파일에서 데이터 가져오기
-d3.tsv("https://github.com/immose93/D3.js-practice/blob/master/data.tsv", type, function(error, data) {
+d3.tsv("http://github.com/immose93/D3.js-practice/blob/master/data.tsv", type, function(error, data) {
 	if(error) throw error;
 	
 	// domain 설정
